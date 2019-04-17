@@ -1,0 +1,316 @@
+/*Ш А П К А*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   max-width: 1440px;
+ box-sizing: border-box;
+    margin: 0 auto;
+}
+p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    margin: 0;
+    padding: 0;
+text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 195px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.header_logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.header_logo_text {
+    width: 36px;
+    height: 21px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    float: left;
+    margin-top: 41px;
+    margin-left: 120px;
+}
+.header_menu li{
+    padding: 0 12px;
+    list-style: none;
+    margin: 0;
+    float: left;
+}
+.header_menu_img {
+    display: block;
+    margin-left: 539px;
+    margin-top: 45px;
+}
+.header_menu_text{
+    width: 46px;
+    height: 21px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    display: block;
+    margin-top: 41px;
+}
+.header_menu_icon li{
+    float: left;
+    margin: 0;
+    padding: 0 ;
+}
+
+.header_search {
+    width: 27px;
+    height: 28px;
+    object-fit: contain;
+    display: inline-block;
+    padding: 43px  61px 0 385px;
+}
+.header_account {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: inline-block;
+    padding: 41px 55px 0 0;
+}
+.header_ru {
+    width: 17px;
+    height: 21px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    padding: 40px 52px 0 0;
+}
+.title{
+    height: 555px;
+    background-color: #000000;
+}
+.title_text {
+    width: 472px;
+    height: 226px;
+    font-family: CSTMXPRMNTL01, sans-serif;
+    font-size: 94px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    float: left;
+    margin: 0 252px 0 116px ;
+}
+.title_content{
+    margin: -226px  100px 0 840px;
+    padding: 0;
+ }
+.title_content_rectangle {
+    width: 80px;
+    height: 1px;
+    float: left;
+    margin: 42px 40px 0 0;
+    background-color: #2ffbc8;
+}
+
+.title_content_text {
+    width: 380px;
+    height: 150px;
+    font-family: CSTMXPRMNTL01, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #2ffbc8;
+    display: block;
+    padding: 31px 100px 0 0;
+    margin-left: 120px;
+}
+.title_content_mission {
+    width: 369px;
+    height: 113px;
+    opacity: 0.1;
+    font-family: CSTMXPRMNTL01, sans-serif;
+    font-size: 94px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin-top: 113px ;
+}
+/*content*/
+.page {
+    background-color: #ffffff;
+    /*height: 1399px;*/
+    width: 100%;
+    max-width: 1440px;
+    height: 1399px;
+    margin: 0 auto;
+}
+.page_element_one{
+    float: left;
+    margin: -149px 2px 0 122px;
+
+}
+.page_element_two{
+    float: left;
+    margin: -149px 2px 0 0;
+
+}
+.page_element_three{
+    float: left;
+    margin: -149px 120px 0 0;
+}
+.page_block_element_bitmap {
+    width: 398px;
+    height: 300px;
+    object-fit: contain;
+    display: inline-block;
+}
+.page_element_one_data, .page_element_two_data, .page_element_three_data {
+    width: 94px;
+    height: 14px;
+    opacity: 0.5;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    float: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.page_element_one_title, .page_element_two_title, .page_element_three_title {
+    width: 172px;
+    height: 14px;
+    opacity: 0.5;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #000000;
+    float: left;
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.page_element_one_more, .page_element_two_more, .page_element_three_more {
+    width: 17px;
+    height: 3px;
+    object-fit: contain;
+    float: left;
+    margin-left: 24px;
+    margin-top: 17px;
+}
+.page_element_one_text, .page_element_two_text,.page_element_three_text {
+    width: 360px;
+    height: 82px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #121212;
+    margin-bottom: 48px;
+}
+.page_block_two .page_element_one{
+    margin-top: 48px;
+}
+
+.page_block_two .page_element_two {
+    margin-top: 48px;
+}
+.page_block_two .page_element_three {
+    margin-top: 48px;
+}
+.page_block_three .page_element_one{
+    margin-top: 120px;
+}
+.page_block_three .page_element_two {
+    margin-top: 120px;
+}
+.page_block_three .page_element_three {
+    margin-top: 120px;
+}
+ /*footer*/
+.footer {
+    height: 280px;
+    background-color: black;
+}
+.footer_Company {
+    margin-top: 78px;
+    margin-left: 120px;
+    float: left;
+    margin-right: 355px;
+}
+.footer_nav li
+{
+    display: inline-block;
+    margin: 78px 46px 0 0;
+}
+.footer_up_arrow {
+    position: fixed;
+    bottom: 182px;
+    margin-left: 49px;
+}
+.footer_Company, .footer_nav li a{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.footer_icon li {
+    display: inline-block;
+    margin: 0 49px 0 0;
+}
+.footer_icon {
+    margin-left: 600px;
+    margin-top: 81px;
+}
+
+
+
+
+
+
